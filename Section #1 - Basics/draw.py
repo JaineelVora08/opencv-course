@@ -3,6 +3,9 @@
 import cv2 as cv
 import numpy as np
 
+# In a color image, each of the three color channels (Red, Green, Blue) is typically represented as a uint8, with values ranging from 0 to 255 for each color component. This is what gives us the full color spectrum for each pixel.
+# how to create a blank image - black
+# height width number of colour channels
 blank = np.zeros((500,500,3), dtype='uint8')
 cv.imshow('Blank', blank)
 
