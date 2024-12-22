@@ -43,6 +43,9 @@ resized = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC)
 cv.imshow('Resized', resized)
 
 # Flipping
+# 0 - about x axis
+# 1 - about y axis
+# -1 - about both axes
 flip = cv.flip(img, -1)
 cv.imshow('Flip', flip)
 
